@@ -11,6 +11,7 @@ new server(webpack(config), {
     colors: true
   },
   historyApiFallback: true,
+  publicPath: config.output.publicPath
 }).listen(9090, function() {
   console.log('server is start');
 });

@@ -6,7 +6,8 @@ var config = {
   },
   output: {
     path: __dirname + '/../dist',
-    filename: '[name].js'
+    filename: '[name].js',
+    publicPath: '/dist/',
   },
   module: {}
 };

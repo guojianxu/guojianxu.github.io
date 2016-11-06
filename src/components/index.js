@@ -60,7 +60,7 @@ export default class Index extends Component {
           <Row>
             <Col span={4}>
               <Menu mode="inline">
-                <SubMenu title={<h4>十大原则</h4>}>
+                <SubMenu title={<h4>十原则</h4>}>
                   <MenuItemGroup title="测试1">
                     <Menu.Item>测试11</Menu.Item>
                     <Menu.Item>测试12</Menu.Item>
